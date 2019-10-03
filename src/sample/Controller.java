@@ -9,7 +9,7 @@ public class Controller {
 
     public Text output;
     private long number1=0;
-    public String operator="";
+    private String operator="";
     private boolean start= true;
     Model model= new Model();
     public void  processnum(ActionEvent event)
